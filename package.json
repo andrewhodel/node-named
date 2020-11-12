@@ -18,8 +18,5 @@
     "bunyan": "0.7.0",
     "ipaddr.js": "0.1.1"
   },
-  "devDependencies": {
-    "nodeunit": "0.9.0"
-  },
   "license": "MIT"
 }
