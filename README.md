@@ -31,6 +31,13 @@ server.on('error', function(e) {
   console.log('server error', e);
 });
 ```
+
+## Set Authoritative AA bit for all server responses
+
+Start the server with the `authoritative` option set to 1.
+```
+var server = named.createServer({authoritative: 1});
+```
 ## Creating DNS Records
 
 node-named provides helper functions for creating DNS records. 
